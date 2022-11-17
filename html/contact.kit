@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group - Kontakt</title>
+    <meta name="description" content="Znajdziesz tu wszelkie dane kontaktowe do naszej firmy, ale i także formularz kontaktowy.">
+    <!-- @include links.kit -->
+
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav id="navbar" class="navbar">
+
+            <button class="hamburger hamburger--emphatic" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+
+            <div class="navbar__box">
+                <div class="navbar__logo">
+                    <a href="./index.html"><i class="fa-solid fa-tree"></i> Forest</a>
+                </div>
+                <div class="navbar__list">
+                    <a href="./index.html" class="navbar__list-item">Home</a>
+                    <a href="./offers.html" class="navbar__list-item">Oferta</a>
+                    <a href="./contact.html" class="navbar__list-item active">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="header__box">
+                <div class="header__box-shadow"></div>
+                <div class="header__box-text">
+                    <p>Forest Group</p>
+                    <h1 class="title-contact">Kontakt</h1>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="contact">
+
+            <div class="contact__info">
+                <div class="contact__info-data">
+                    <h2 class="contact__info-data-title">Dane kontaktowe:</h2>
+                    <p class="contact__info-data-item">ul. Jasnogórska 2</p>
+                    <p class="contact__info-data-item">31-358 Kraków</p>
+                    <p class="contact__info-data-item"><img src="./dist/img/icons/android_phone.svg" alt=""> +48 580 098 123</p>
+                    <p class="contact__info-data-item"><img src="./dist/img/icons/telephone_icon.svg" alt=""> 22 444 66 11</p>
+                    <p class="contact__info-data-item"><img src="./dist/img/icons/email_icon.svg" alt=""> mail@forest.pl</p>
+                </div>
+                <div class="contact__info-social">
+                    <a href="#" class="contact__info-social-item"><img src="./dist/img/icons/facebook.svg" alt="ikona facebook"></a>
+                    <a href="#" class="contact__info-social-item"><img src="./dist/img/icons/twitter.svg" alt="ikona twitter"></a>
+                    <a href="#" class="contact__info-social-item"><img src="./dist/img/icons/linkedin.svg" alt="ikona linkedin"></a>
+                </div>
+            </div>
+
+
+
+
+
+            <form class="contact__form">
+                <div class="wrapper">
+                <h2 class="contact__form-title">Formularz kontaktowy:</h2>
+                <div class="contact__form-top">
+                    <div class="contact__form-top-box">
+                        <label for="name" class="contact__form-label">Imię i Nazwisko:</label>
+                        <input type="text" id="name" class="contact__form-input">
+                    </div>
+                    <div class="contact__form-top-box">
+                        <label for="email" class="contact__form-label">Adres E-mail:</label>
+                        <input type="email" id="email" class="contact__form-input">
+                    </div>
+
+
+                </div>
+                <div class="contact__form-msg">
+                    <label for="msg" class="contact__form-label">Wiadomość:</label>
+                    <textarea class="contact__form-textarea" id="msg" cols="20" rows="5"></textarea>
+                </div>
+                <button type="submit" class="contact__form-btn">Wyślij</button>
+            </div>
+            </form>
+
+
+
+
+            <div class="contact__map">
+                <p class="contact__map-text">Tu nas znajdziecie:</p>
+                <iframe class="contact__map-location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8982686590216!2d19.890660216063626!3d50.08819152128126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1667772321268!5m2!1spl!2spl"
+                    width="310" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- @include footer.kit -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
